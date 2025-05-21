@@ -1,16 +1,25 @@
 import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import About from './components/About';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
+import NavBar      from './components/NavBar';
+import SocialLinks from './components/SocialLinks';
+import EmailLink   from './components/EmailLink';
+import Hero        from './components/Hero';
+import About       from './components/About';
+import Experience  from './components/Experience';
+import Work        from './components/Work';
+import Contact     from './components/Contact';
+import Footer      from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <NavBar />
+      <SocialLinks />
+      <EmailLink />
+      <Hero />
       <About />
-      <Projects />
+      <Experience />
+      <Work />
+      <Contact />
       <Footer />
     </div>
   );

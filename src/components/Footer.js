@@ -1,13 +1,9 @@
 import React from 'react';
 
-function Footer() {
+export default function Footer() {
   return (
-    <footer>
-      <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <span> | </span>
-      <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <footer style={{ textAlign:'center', color:'var(--fg-2)', marginTop:'40px' }}>
+      © {new Date().getFullYear()} Arnapurna. All rights reserved.
     </footer>
   );
 }
-
-export default Footer;
