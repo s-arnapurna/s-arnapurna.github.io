@@ -7,11 +7,6 @@ const projects = [
     desc: 'Built a real-time pipeline to assist disaster response teams using Kafka and LLMs. Classified 10K+ tweets/sec with zero loss, achieved sub-second latency, and supported geospatial incident search over 0.2M+ records.',
   },
   {
-    title: 'Invoice Financing Service',
-    tech: 'Cassandra · Kafka · Spring Boot',
-    desc: 'Designed a fault-tolerant invoice ledger on Apache Cassandra with Kafka-driven event sourcing, enabling financial institutions to process 150K+ invoice events per minute globally with tunable consistency.',
-  },
-  {
     title: 'TCP Chat Application',
     tech: 'C++ · Socket Programming · Networking',
     desc: 'Engineered a client-server TCP chat app from scratch using modern socket programming concepts. Enabled multiple client connections with real-time message relay and graceful disconnections.',
